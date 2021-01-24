@@ -28,7 +28,7 @@ body{
 /*Body*/
 
 .bg-img{
-    background-image: url(../images/background.jpg);
+    background-image: url(./images/background.jpg);
     position: absolute;
     top: 0px;
     left:0px;

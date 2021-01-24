@@ -6,15 +6,15 @@ $(document).ready(function(){
 })
 
 $('#btn1').click(function(){
-    $('.bg-img').css("background-image","url(../images/background.jpg)");
+    $('.bg-img').css("background-image","url(./images/background.jpg)");
 });
 
 $('#btn2').click(function(){
-    $('.bg-img').css("background-image","url(../images/scroll-1.jpg)");
+    $('.bg-img').css("background-image","url(./images/scroll-1.jpg)");
 });
 
 $('#btn3').click(function(){
-    $('.bg-img').css("background-image","url(../images/scroll-2.jpg)");
+    $('.bg-img').css("background-image","url(./images/scroll-2.jpg)");
 });
 
 $(document).ready(function(){

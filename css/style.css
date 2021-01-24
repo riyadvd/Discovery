@@ -225,6 +225,10 @@ body{
     
     .content {
         height: 20rem !important;
+        margin-top:4rem;
+    }
+    .title {
+        margin-top: 9rem;
     }
 }
 

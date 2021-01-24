@@ -1,0 +1,229 @@
+/*Global*/
+
+body{
+    margin:0;
+    padding:0;
+}
+
+
+/*Navbar*/
+
+.navbar{
+    z-index:999;
+}
+
+.navbar-brand{
+    width:17%;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: rgb(255 255 255 / 50%);
+    margin-right: 70px;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link, .nav-link:hover {
+    color: rgb(255 255 255 / 90%) !important;
+}
+
+/*Body*/
+
+.bg-img{
+    background-image: url(../images/background.jpg);
+    position: absolute;
+    top: 0px;
+    left:0px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    z-index: 99;
+}
+
+.layer{
+    background-color: rgb(0 0 0 / 62%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+}
+
+.row{
+    width:100%;
+}
+
+.title{
+    margin-top: 12rem;
+    padding-left: 2rem;
+    letter-spacing: 3px;
+}
+
+.coming-soon{
+    padding-left: 2rem;
+    color:#adadad;
+    margin-top: 17px;
+}
+
+
+
+.exp{
+    height:40rem;
+    overflow:scroll;
+    width:5rem;
+}
+.content {
+      height: 29rem;
+    overflow: auto;
+    margin-top: 7rem;  
+}
+.scrollable {
+  height: 1200px;
+}
+::-webkit-scrollbar {
+    width: 2px;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px #7e7e7e42; 
+    background: #7e7e7e42;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #ffffff;
+    -webkit-box-shadow: inset 0 0 6px #ffffff; 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(255,0,0,0.4); 
+}
+
+.num{
+    margin-top: 40px;
+    padding-right: 18px;
+    text-align: right;
+}
+
+.number{
+    position: absolute;
+    top: 11px;
+    font-size: 36px;
+    font-weight: 500;
+    width: 100%;
+    padding-right: 18px;
+    text-align: right;
+}
+
+.scroll-img{
+    width: 100%;
+    display: block;
+    height:15rem;
+    margin-bottom: 12px;
+    
+}
+
+.scroll-div{
+    position:relative;
+}
+
+.scroll-title{
+    position: absolute;
+    top:0;
+    padding-left:60px;
+    padding-top:10px;
+    width: 100%;
+    height: 100%;
+    background-color: #00000066;
+}
+
+.scroll-description{
+    position: absolute;
+    padding-left:60px;
+    padding-top:10px;
+    top:25px;
+}
+
+.play-scroll{
+    position: absolute;
+    top:15px;
+    color:#003b7b;
+    z-index:99;
+}
+
+.n2, .n3, #div1, #head-second, #head-third{
+    display:none;
+}
+
+.watch-btn {
+  position: relative;
+  width: 150px;
+  height: 40px;  
+  color:white;
+  border: none;
+  margin-left:2rem;
+  box-shadow: 0 0 0 0 rgba(0, 123, 255, 1);
+  border-radius: 24px;
+  background-color: #054489;
+  cursor: pointer;
+  -webkit-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  -moz-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  -ms-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+}
+.watch-btn:hover 
+{
+  -webkit-animation: none;-moz-animation: none;-ms-animation: none;animation: none;
+    color:#c3c3c3;
+}
+
+@-webkit-keyframes pulse {to {box-shadow: 0 0 0 13px rgba(232, 76, 61, 0);}}
+@-moz-keyframes pulse {to {box-shadow: 0 0 0 13px rgba(232, 76, 61, 0);}}
+@-ms-keyframes pulse {to {box-shadow: 0 0 0 13px rgba(232, 76, 61, 0);}}
+@keyframes pulse {to {box-shadow: 0 0 0 13px rgba(232, 76, 61, 0);}}
+
+
+#btn1 ,#btn2, #btn3{
+    width: 32px;
+    /* height: 40px; */
+    color: white;
+    border: none;
+    margin-left: 1rem;
+    box-shadow: 0 0 0 0 rgba(204, 209, 214, 1);
+    border-radius: 50px;
+    /* background-color: #054489; */
+    cursor: pointer;
+    -webkit-animation: pulse 1s infinite cubic-bezier(0.66, 0, 0, 1);
+    -moz-animation: pulse 1s infinite cubic-bezier(0.66, 0, 0, 1);
+    -ms-animation: pulse 1s infinite cubic-bezier(0.66, 0, 0, 1);
+    animation: pulse 1s infinite cubic-bezier(0.66, 0, 0, 1);
+}
+@-webkit-keyframes pulse {to {box-shadow: 0 0 0 6px rgba(232, 76, 61, 0);}}
+@-moz-keyframes pulse {to {box-shadow: 0 0 0 6px rgba(232, 76, 61, 0);}}
+@-ms-keyframes pulse {to {box-shadow: 0 0 0 6px rgba(232, 76, 61, 0);}}
+@keyframes pulse {to {box-shadow: 0 0 0 6px rgba(232, 76, 61, 0);}}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url(../images/ham.jpg) !important;
+}
+
+
+
+
+
+/*Responsive*/
+
+@media only screen and (max-width: 990px) {
+    
+    .scrollable {
+        height: 50px;
+        padding-left: 29px;
+    }
+    
+    .content {
+        height: 20rem !important;
+    }
+}
